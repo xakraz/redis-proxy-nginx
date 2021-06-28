@@ -1,4 +1,6 @@
-# Nginx-redis
+# redis-proxy-nginx
+
+Nginx configured to proxy Redis traffic.
 
 Inspired by:
 - https://github.com/rentlytics/nginx-redis

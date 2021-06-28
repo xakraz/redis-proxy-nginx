@@ -21,6 +21,7 @@ elif [[ "$REDIS_PORT" =~ "tcp://" ]]; then
    export REDIS_PORT=6379
 fi
 
+# This is AWS default DNS resolver in a VPC
 if [ -z "$DNS_RESOLVER" ]; then
     export DNS_RESOLVER=10.1.0.2
 fi
